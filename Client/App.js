@@ -1,37 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
-  NavigationContainer,
-  createStackNavigator,
-  createBottomTabNavigator,
-  createSwitchNavigator
+  NavigationContainer
 } from "@react-navigation/native";
-
-import AccountScreen from "./src/screens/AccountScreen";
-import SigninScreen from "./src/screens/SigninScreen";
-import SignupScreen from "./src/screens/SignupScreen";
-import TrackCreateScreen from "./src/screens/TrackCreateScreen";
-import TrackDetailScreen from "./src/screens/TrackDetailScreen";
-import TrackListScreen from "./src/screens/TrackListScreen";
+import BottomTabs from "./src/navigation/BottomTabs";
+import AuthStack from "./src/navigation/AuthNavigator";
 
 export default function App() {
-  return <NavigationContainer>
-
-  </NavigationContainer>
-}
-
-// const switchNavigator = createSwitchNavigator({
-//   loginFlow: createStackNavigator({
-//     Signup: SignupScreen,
-//     Signin: SigninScreen
-//   }),
-//   mainFlow: createBottomTabNavigator({
-//     trackListFlow: createStackNavigator({
-//       TrackList: TrackListScreen,
-//       TrackDetail: TrackDetailScreen
-//     }),
-//     TrackCreate: TrackCreateScreen,
-//     Account: AccountScreen
-//   })
-// });
-//
-// export default NavigationContainer(switchNavigator);
+    const [isSigned, setIsSigned] = useState(false);
+  return (
+      <NavigationContainer>
+          {isSigned ? (<BottomTabs />) : (<AuthStack />)}
+      </NavigationContainer>
+      );
+};
