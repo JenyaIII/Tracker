@@ -6,12 +6,14 @@ const authRoutes = require('./routes/authRoutes.js');
 const trackRoutes = require('./routes/trackRoutes.js');
 const bodyParser = require('body-parser');
 const config = require('config');
+const cors = require('cors');
 
 const app = express();
 
 app.use(bodyParser.json())
 app.use(authRoutes);
 app.use(trackRoutes);
+app.use(cors());
 
 const mongoURI = config.get('mongoURI');
 const PORT = config.get('port') || 5000;
