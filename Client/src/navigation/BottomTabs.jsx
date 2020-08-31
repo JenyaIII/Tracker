@@ -1,7 +1,7 @@
 import React from 'react';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
-import TrackCreateScreen from "../screens/TrackCreateScreen";
-import AccountScreen from "../screens/AccountScreen";
+import TrackCreateScreen from "../screens/TrackCreateScreen/TrackCreateScreen";
+import AccountScreen from "../screens/AccountScreen/AccountScreen";
 import TrackListStackScreen from "./TrackListStackScreen";
 
 const Tab = createMaterialBottomTabNavigator();

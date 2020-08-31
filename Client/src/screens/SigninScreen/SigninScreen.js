@@ -1,10 +1,9 @@
 import React from 'react';
-import { View, StyleSheet, Text } from 'react-native';
+import { View, Text } from 'react-native';
+import { styles } from './Styles';
 
 const SigninScreen = () => {
     return <Text style={{ fontSize: 48 }}>SigninScreen</Text>
 };
-
-const styles = StyleSheet.create({});
 
 export default SigninScreen;
