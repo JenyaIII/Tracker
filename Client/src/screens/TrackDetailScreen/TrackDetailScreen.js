@@ -1,14 +1,13 @@
 import React from 'react';
-import { View, StyleSheet, Text } from 'react-native';
+import { View, Text } from 'react-native';
+import { styles } from './Styles';
 
 const TrackDetailScreen = () => {
     return (
-        <View style={{ flex: 1, alignItems: 'center', justifyContent: 'flex-start', marginTop: 45 }}>
+        <View style={styles.container}>
             <Text style={{ fontSize: 28 }}>Track Detail</Text>
         </View>
     )
 };
-
-const styles = StyleSheet.create({});
 
 export default TrackDetailScreen;

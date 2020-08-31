@@ -21,15 +21,17 @@
   <component name="ChangeListManager">
     <list default="true" id="a158045b-fb85-4666-ae0c-ec8901691acf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/navigation/AuthNavigator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/navigation/AuthNavigator.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/navigation/BottomTabs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/navigation/BottomTabs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/navigation/TrackListStackScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/navigation/TrackListStackScreen.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/screens/AccountScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/screens/AccountScreen/AccountScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/screens/SigninScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/screens/SigninScreen/SigninScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/screens/SignupScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/screens/SignupScreen/SignupScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/screens/TrackCreateScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/screens/TrackCreateScreen/TrackCreateScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/screens/TrackDetailScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/screens/TrackDetailScreen/TrackDetailScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/screens/TrackListScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/screens/TrackListScreen/TrackListScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/api/tracker.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/api/tracker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/context/AuthContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/context/AuthContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/screens/TrackCreateScreen/Styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/screens/TrackCreateScreen/Styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/screens/TrackCreateScreen/TrackCreateScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/screens/TrackCreateScreen/TrackCreateScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/screens/TrackDetailScreen/TrackDetailScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/screens/TrackDetailScreen/TrackDetailScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/screens/TrackListScreen/TrackListScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/screens/TrackListScreen/TrackListScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/routes/authRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/routes/authRoutes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +52,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Client/src/screens/TrackCreateScreen" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Client/src/screens/TrackListScreen" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,16 +62,18 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Client/src/screens/TrackListScreen" />
+      <recent name="$PROJECT_DIR$/Client/src/screens/TrackDetailScreen" />
+      <recent name="$PROJECT_DIR$/Client/src/screens/TrackCreateScreen" />
+      <recent name="$PROJECT_DIR$/Client/assets/fonts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Client/src/screens/TrackListScreen" />
       <recent name="$PROJECT_DIR$/Client/src/screens/TrackDetailScreen" />
       <recent name="$PROJECT_DIR$/Client/src/screens/TrackCreateScreen" />
       <recent name="$PROJECT_DIR$/Client/src/screens/SigninScreen" />
       <recent name="$PROJECT_DIR$/Client/src/screens/SignupScreen" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Client/src/screens/TrackCreateScreen" />
-      <recent name="$PROJECT_DIR$/Client/assets/fonts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -82,7 +86,8 @@
       <updated>1598536251132</updated>
       <workItem from="1598536252926" duration="3457000" />
       <workItem from="1598603562129" duration="19657000" />
-      <workItem from="1598857830080" duration="2358000" />
+      <workItem from="1598857830080" duration="2462000" />
+      <workItem from="1598873434172" duration="12699000" />
     </task>
     <servers />
   </component>
@@ -102,6 +107,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="660" y="342" width="592" height="393" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598880489030">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="660" y="342" width="592" height="393" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1598880489030" />
     <state x="692" y="289" width="528" height="499" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598623502278">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -126,5 +135,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="666" y="279" width="599" height="522" key="find.popup/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1598615482978" />
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1598885877135">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1598885877135" />
   </component>
 </project>

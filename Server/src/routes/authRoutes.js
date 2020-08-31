@@ -19,7 +19,7 @@ router.post('/signup', [
             return res.status(400).json({
                 errors: errors.array(),
                 message: 'Incorrect data when you try Register',
-            })
+            });
         }
         const { email, password } = req.body;
 
@@ -29,9 +29,10 @@ router.post('/signup', [
         }
         const hashedPassword = await bcrypt.hash(password, 12);
         const user = new User({ email, password: hashedPassword });
-
         await user.save();
-        res.status(201).json({ message: 'User has been created ! '});
+
+        const token = jwt.sign({ userId: user.id }, config.get('jwtSecretCode'));
+        res.status(201).json({ message: 'User has been created ! ', token });
     } catch (e) {
         res.status(500).json({ message: 'Daaamn, Something wrong... Try again' });
     }

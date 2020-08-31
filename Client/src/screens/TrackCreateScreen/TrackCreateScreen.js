@@ -1,9 +1,10 @@
 import React from 'react';
-import { View, StyleSheet, Text } from 'react-native';
+import { View, Text } from 'react-native';
+import { styles } from './Styles';
 
 const TrackCreateScreen = () => {
     return (
-        <View style={{ flex: 1, alignItems: 'center', justifyContent: 'flex-start', marginTop: 45 }}>
+        <View style={styles.container}>
             <Text style={{ fontSize: 28 }}>
                 Create Track
             </Text>
@@ -12,7 +13,5 @@ const TrackCreateScreen = () => {
 
 
 };
-
-const styles = StyleSheet.create({});
 
 export default TrackCreateScreen;
